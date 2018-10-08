@@ -1,0 +1,72 @@
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            padding : 1rem;
+            background-image: url(img/5.jpg);
+            background-size : cover;
+            color : rgba(255,255,255,0.75);
+        }
+        .wrap{
+            max-width: 1450px;
+            margin : auto;
+            height : 1600px;
+            background-color : rgba(255,255,255,0.08);
+        }
+        header{
+            border-bottom : 1px solid rgba(255,255,255,0.2);;
+            padding : 1rem;
+            text-align: center;
+            background-color : ;
+        }
+        header h1{
+            font-family: '메이플스토리';
+            color : rgba(255,255,255,0.9);
+            letter-spacing: 10px;
+        }
+        nav{
+            height : 1374px;
+            border-right : 1px solid rgba(255,255,255,0.2);;
+            float : left;
+            padding : 0;
+            margin : 0;
+            font-family: '메이플스토리';
+        }
+        nav ul{
+            list-style: none;
+            padding : 0;
+            margin: 0;
+        }
+        nav ul li{
+            line-height: 2rem;
+            padding-left : 1rem;
+            padding-right : 1rem;
+            width : 180px;
+        }
+        nav ul li:hover{
+            background-color : rgba(0,0,0,0.4);
+        }
+        a{
+            text-decoration : none;
+            color : rgba(255,255,255,0.75);
+        }
+        #top{
+            padding-top : 5px;
+        }
+        article{
+            padding : 1.5rem;
+            display : grid;
+            font-family: '메이플스토리';
+            line-height: 150%;
+        }
+article strong{
+    padding : 0;
+    margin : 0;
+}
+footer{
+            font-family: '메이플스토리';
+            height : 100px;
+            border-top : 1px solid rgba(255,255,255,0.2);;
+            text-align: center;
+            clear : both;
+        }
