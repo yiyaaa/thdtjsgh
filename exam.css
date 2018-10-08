@@ -3,7 +3,7 @@
         }
         body{
             padding : 1rem;
-            background-image: url(5.jpg);
+            background-color: black;
             background-size : cover;
             color : rgba(255,255,255,0.75);
         }
