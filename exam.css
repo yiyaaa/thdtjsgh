@@ -1,9 +1,13 @@
+@font-face {
+font-family : '메이플스토리';
+src : url('Maplestory Light.ttf') format('truetype');
+}
         *{
             box-sizing: border-box;
         }
         body{
             padding : 1rem;
-            background-color: black;
+            background-image: url(5.jpg);
             background-size : cover;
             color : rgba(255,255,255,0.75);
         }
