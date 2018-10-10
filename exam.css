@@ -14,7 +14,7 @@ src : url('Maplestory Light.ttf') format('truetype');
         .wrap{
             max-width: 1450px;
             margin : auto;
-            height : 1600px;
+            height : 1620px;
             background-color : rgba(255,255,255,0.08);
         }
         header{
