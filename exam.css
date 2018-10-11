@@ -14,8 +14,9 @@ src : url('Maplestory Light.ttf') format('truetype');
         .wrap{
             max-width: 1450px;
             margin : auto;
-            height : 1620px;
+            height : 1680px;
             background-color : rgba(255,255,255,0.08);
+            border-radius: 10px;
         }
         header{
             border-bottom : 1px solid rgba(255,255,255,0.2);;
@@ -29,7 +30,7 @@ src : url('Maplestory Light.ttf') format('truetype');
             letter-spacing: 10px;
         }
         nav{
-            height : 1374px;
+            height : 1434px;
             border-right : 1px solid rgba(255,255,255,0.2);;
             float : left;
             padding : 0;
@@ -74,3 +75,12 @@ footer{
             text-align: center;
             clear : both;
         }
+@media(max-width:879px)
+{
+    .wrap{
+            max-width: 1450px;
+            margin : auto;
+            height : 1800px;
+            background-color : rgba(255,255,255,0.08);
+        }
+}
