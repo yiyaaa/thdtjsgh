@@ -14,7 +14,7 @@ src : url('Maplestory Light.ttf') format('truetype');
         .wrap{
             max-width: 1450px;
             margin : auto;
-            height : 1680px;
+            height : 1740px;
             background-color : rgba(255,255,255,0.08);
             border-radius: 10px;
         }
@@ -30,7 +30,7 @@ src : url('Maplestory Light.ttf') format('truetype');
             letter-spacing: 10px;
         }
         nav{
-            height : 1434px;
+            height : 1494px;
             border-right : 1px solid rgba(255,255,255,0.2);;
             float : left;
             padding : 0;
@@ -60,13 +60,16 @@ src : url('Maplestory Light.ttf') format('truetype');
         }
         article{
             padding : 1.5rem;
-            display : grid;
+/*            display : contents;*/
+            padding-left: 204px;
             font-family: '메이플스토리';
             line-height: 150%;
         }
-article strong{
-    padding : 0;
-    margin : 0;
+article img{
+    width : 700px;
+    margin : 1rem;
+    margin-left : auto;
+    margin-right : auto;
 }
 footer{
             font-family: '메이플스토리';
